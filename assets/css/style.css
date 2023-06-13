@@ -1,0 +1,52 @@
+/*font-family: 'Charis SIL', serif;
+font-family: 'Cormorant Unicase', serif;
+font-family: 'Yeseva One', cursive;*/
+
+body {
+  background-color: rgb(134, 134, 134);
+  color: rgb(49, 49, 49);
+  font-family: "Charis SIL", serif;
+}
+
+a {
+  color: rgb(49, 49, 49);
+}
+
+a:hover {
+  color: rgb(250, 235, 215);
+  transition: all 0.5s ease;
+}
+.container {
+}
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 3;
+}
+
+.title__name {
+  font-family: "Yeseva One", cursive;
+  font-size: 46px;
+}
+
+.title__text {
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+.neader-nav {
+  flex: 2;
+}
+
+.nav__list {
+  display: flex;
+  gap: 15px;
+  justify-content: stretch;
+  font-size: 24px;
+}
